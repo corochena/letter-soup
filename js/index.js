@@ -7,7 +7,7 @@ var letters = randLetters(rows, cols);
 createTable(letters);
 
 function distLetters() {
-  var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var alphabet = "abcdefghijklmnopqrstuvwxyz";
   var repetitions = "31113111211121211221211111";
   var distributed = [];
   for (var i = 0; i < alphabet.length; i++) {
